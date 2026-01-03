@@ -71,3 +71,9 @@ spring.h2.console.path=/h2-console
 *   **Port 8080 already in use**: If the server fails to start with "Address already in use", kill existing Java processes:
     *   *Windows*: `taskkill /F /IM java.exe`
     *   *Linux/Mac*: `pkill -f java`
+
+
+
+This Repo is Under Development Process only !
+
+Feel Free to Contribute
