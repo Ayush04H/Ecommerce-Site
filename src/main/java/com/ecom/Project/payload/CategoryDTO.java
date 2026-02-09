@@ -1,0 +1,17 @@
+package com.ecom.Project.payload;
+
+import io.swagger.v3.oas.annotations.media.Schema;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class CategoryDTO {
+
+    @Schema(accessMode = Schema.AccessMode.READ_ONLY)
+    private Long categoryId;
+    private String categoryName;
+
+}
