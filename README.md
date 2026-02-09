@@ -49,11 +49,13 @@ spring.h2.console.path=/h2-console
     It is recommended to run a clean build to ensure all dependencies are downloaded correctly.
     ```bash
     ./mvnw clean install
+    mvn clean install
     ```
 
 2.  **Start the Application**:
     ```bash
     ./mvnw spring-boot:run
+    mvn spring-boot:run
     ```
 
 3.  **Access the H2 Console**:
